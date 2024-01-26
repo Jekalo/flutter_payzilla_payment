@@ -127,8 +127,8 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
                 ),
               ),
             Image.asset(
-              'assets/images/paystack.png',
-              key: const Key("PaystackLogo"),
+              'assets/images/payzilla.png',
+              key: const Key("PayZillaLogo"),
               package: 'flutter_paystack_payment',
               height: 15,
             )
