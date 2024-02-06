@@ -57,7 +57,7 @@ class _WebViewState extends State<WebView> {
           readResponse();
         },
         onWebResourceError: (WebResourceError error) {
-          console.log("error new", error)
+          console.log("error new", error);
         },
       ))
       ..loadRequest(Uri.parse(widget.url));
