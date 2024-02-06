@@ -56,7 +56,7 @@ class _WebViewState extends State<WebView> {
         onPageFinished: (String url) {
           readResponse();
         },
-        onWebResourceError: (WebResourceError error) {
+        onWebResourceError: (view.WebResourceError error) {
           log("error new: $error");
         },
       ))

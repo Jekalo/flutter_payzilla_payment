@@ -117,15 +117,6 @@ class _CheckoutWidgetState extends BaseState<CheckoutWidget>
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             if (widget.logo != null)
-              Padding(
-                padding: const EdgeInsetsDirectional.only(end: 3),
-                child: Image.asset(
-                  'assets/images/paystack_icon.png',
-                  key: const Key("PaystackBottomIcon"),
-                  package: 'flutter_paystack_payment',
-                  height: 16,
-                ),
-              ),
             Image.asset(
               'assets/images/payzilla.png',
               key: const Key("PayZillaLogo"),
